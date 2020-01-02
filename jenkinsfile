@@ -4,6 +4,7 @@ pipeline {
         stage('default') {
             steps {
                 echo "hello world"
+                echo "I am in feature branch"
             }
         }
     }    
